@@ -210,5 +210,52 @@ p{
 }
 
 .btn-main{
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-subtitle);
+    letter-spacing: var(--cs-subtitle);
+    text-transform: uppercase;
+    color: var(--sec-clr-white);
+    background-color: var(--primary-clr-100);
+    border: none;
+    height: 48px;
+    width: 160px;
+}
 
+.btn-main:hover{
+    background-color: var(--sec-clr-100);
+}
+
+.btn-light{
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-subtitle);
+    letter-spacing: var(--cs-subtitle);
+    text-transform: uppercase;
+    color: var(--sec-clr-black);
+    background-color: var(--sec-clr-white);
+    border: var(--sec-clr-black) 1px solid;
+    height: 48px;
+    width: 160px;
+}
+
+.btn-light:hover{
+    color: var(--sec-clr-white);
+    background-color: var(--sec-clr-black);
+    border: none;
+}
+
+.btn-minimal{
+    font-size: var(--fs-subtitle);
+    font-weight: var(--fw-bold);
+    line-height: var(--lh-subtitle);
+    letter-spacing: var(--cs-subtitle);
+    text-transform: uppercase;
+    color: var(--sec-clr-black);
+    background: none;
+    border: none;
+}
+
+.btn-minimal:hover{
+    color: var(--primary-clr-100);
 }
