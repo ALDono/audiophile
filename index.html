@@ -15,8 +15,8 @@
 <body>
   <header>
     <nav>
-      <button class="btn-hamburger"><img src="assets/shared/tablet/icon-hamburger.svg" alt=""></button>
-      <ul class="navigation-list">
+      <button id="btnHamburger" class="btn-hamburger"><img src="assets/shared/tablet/icon-hamburger.svg" alt=""></button>
+      <ul id="navigationLinks" class="navigation-list">
         <li>Home</li>
         <li>Headphones</li>
         <li>Speakers</li>
@@ -88,5 +88,15 @@
 
     <p>Copyright 2021. All Rights Reserved</p>
   </footer>
+  <script>
+    const btnHamburger = document.getElementById("btnHamburger");
+    const navigationLinks = document.getElementById("navigationLinks");
+    let navActive = false;
+
+    if(navActive === false){
+      navActive = true;
+      navigationLinks.style.display = ""
+    }
+  </script>
 </body>
 </html>
