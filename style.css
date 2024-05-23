@@ -259,3 +259,47 @@ p{
 .btn-minimal:hover{
     color: var(--primary-clr-100);
 }
+
+body{
+  font-family: var(--ff-main);
+}
+
+/* General Styling */
+
+
+/* Main Section Styling */
+
+main{
+  background-color: var(--primary-clr-dark);
+  color: var(--sec-clr-white);
+}
+
+
+/* Shop Links */
+
+
+
+/* Product Showcase */
+
+.product-showcase{
+  background-color: var(--primary-clr-100);
+  color: var(--sec-clr-white);
+}
+
+/* About Section */
+
+.about-section{
+  h4{
+    span{
+      color: var(--primary-clr-100);
+    }
+  }
+}
+
+
+/* Footer */
+
+footer{
+  background-color: var(--primary-clr-dark);
+  color:var(--sec-clr-white);
+}
