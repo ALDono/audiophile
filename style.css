@@ -45,7 +45,6 @@
     --lh-h6: 24px;
     --lh-spaced: 19px;
     --lh-subtitle: 25px;
-    --lh-subtitle: 25px;
     --lh-body: 25px;
 
     /* Custom Char Spacing */
@@ -260,24 +259,69 @@ p{
     color: var(--primary-clr-100);
 }
 
+.btn-trolley{
+  background: none;
+  border: none;
+}
+
+.btn-hamburger{
+  background: none;
+  border: none;
+}
+
 body{
   font-family: var(--ff-main);
 }
 
 /* General Styling */
 
+/* Header */
+
+header{
+  background-color: var(--primary-clr-dark);
+  color: var(--sec-clr-white);
+  display:flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.navigation-list{
+  list-style: none;
+  display: none;
+}
+
+
 
 /* Main Section Styling */
 
 main{
   background-color: var(--primary-clr-dark);
+  background-image: url("assets/home/mobile/image-header.jpg");
+  background-position: bottom;
+  background-size: cover;
   color: var(--sec-clr-white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 6rem 4rem 9rem 4rem;
+  text-align: center;
 }
 
 
 /* Shop Links */
 
+.shop-links{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.shop-links-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* Product Showcase */
 

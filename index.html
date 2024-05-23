@@ -13,29 +13,44 @@
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-  <head>
+  <header>
     <nav>
-      Home
-      Headphones
-      Speakers
-      Earphones
+      <button class="btn-hamburger"><img src="assets/shared/tablet/icon-hamburger.svg" alt=""></button>
+      <ul class="navigation-list">
+        <li>Home</li>
+        <li>Headphones</li>
+        <li>Speakers</li>
+        <li>Earphones</li>
+      </ul>
     </nav>
-  </head>
-  <main class="">
+    <img src="assets/shared/desktop/logo.svg" alt="">
+    <button class="btn-trolley"><img src="assets/shared/desktop/icon-cart.svg" alt=""></button>
+  </header>
+  <main>
     <p class="spaced">New product</p>
     <h1>XX99 Mark II Headphones</h1>
     <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
     <button class="btn-main">See product</button>
   </main>
   <section class="shop-links">
-    <h2 class="subtitle">Headphones</h2>
-    <button class="btn-minimal">Shop</button>
+    <div class="shop-links-card">
+      <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="">
+      <h2 class="subtitle">Headphones</h2>
+      <button class="btn-minimal">Shop</button>
+    </div>
 
-    <h2 class="subtitle">Speakers</h2>
-    <button class="btn-minimal">Shop</button>
+    <div class="shop-links-card">
+      <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="">
+      <h2 class="subtitle">Speakers</h2>
+      <button class="btn-minimal">Shop</button>
+    </div>
 
-    <h2 class="subtitle">Earphones</h2>
-    <button class="btn-minimal">Shop</button>
+    <div class="shop-links-card">
+      <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="">
+      <h2 class="subtitle">Earphones</h2>
+      <button class="btn-minimal">Shop</button>
+    </div>
+
   </section>
   <section class="product-showcase">
     <div class="">
@@ -61,7 +76,7 @@
       audio equipment.</p>
   </section>
   <footer>
-    <ul>
+    <ul class="navigation-list">
       <li>Home</li>
       <li>Headphones</li>
       <li>Speakers</li>
