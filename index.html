@@ -28,10 +28,16 @@
   </header>
   <main>
     <div class="main-container">
-      <p class="spaced">New product</p>
-      <h1>XX99 Mark II Headphones</h1>
-      <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
-      <button class="btn-main">See product</button>
+      <div class="main-text">
+        <p class="spaced">New product</p>
+        <h3 class="main-header-mob">XX99 Mark II Headphones</h3>
+        <h1 class="main-header-desk">XX99 Mark II Headphones</h1>
+        <p>Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.</p>
+        <button class="btn-main">See product</button>
+      </div>
+      <div class="main-img">
+        <img src="assets/home/tablet/image-header.jpg" alt="">
+      </div>
     </div>
   </main>
   <div class="container">
@@ -63,11 +69,14 @@
     </section>
     <section class="product-showcase">
       <div class="showcase-zx9">
-        <img src="assets/home/mobile/image-speaker-zx9.png" alt="">
-        <h1 class="zx9-desk-title">ZX9 speaker</h1>
-        <h3 class="zx9-mob-title">ZX9 speaker</h3>
-        <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
-        <button class="btn-light">See product</button> 
+        <img class="showcase-zx9-img-desk" src="assets/home/desktop/image-speaker-zx9.png" alt="">
+        <img class="showcase-zx9-img-mob" src="assets/home/mobile/image-speaker-zx9.png" alt="">
+        <div class="showcase-zx9-text">
+          <h1 class="zx9-desk-title">ZX9 speaker</h1>
+          <h3 class="zx9-mob-title">ZX9 speaker</h3>
+          <p>Upgrade to premium speakers that are phenomenally built to deliver truly remarkable sound.</p>
+          <button class="btn-light">See product</button>
+        </div>
       </div>
       <div class="showcase-zx7">
         <h3>ZX7 speaker</h3>
@@ -76,38 +85,52 @@
       <div class="showcase-yx1-img">
         <img src="assets/home/mobile/image-earphones-yx1.jpg" alt="">
       </div>
-      <div class="showcase-yx1-mob">
-        <h3>YX1 earphones</h3>
-        <button class="btn-light">See product</button>
+      <div class="showcase-yx1">
+        <div class="showcase-yx1-img-tab">
+          <img src="assets/home/tablet/image-earphones-yx1.jpg" alt="">
+        </div>
+        <div class="showcase-yx1-img-desk">
+          <img src="assets/home/desktop/image-earphones-yx1.jpg" alt="">
+        </div>
+        <div class="showcase-yx1-text">
+          <h3>YX1 earphones</h3>
+          <button class="btn-light">See product</button>
+        </div>
       </div>
     </section>
     <section class="about-section">
-      <img src="assets/shared/mobile/image-best-gear.jpg" alt="">
-      <h4>Bringing you the <span>best</span> audio gear</h4>    
-      <p>Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
-        earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
-        rooms available for you to browse and experience a wide range of our products. Stop by our store 
-        to meet some of the fantastic people who make Audiophile the best place to buy your portable 
-        audio equipment.</p>
+      <img class="about-img-desk" src="assets/shared/desktop/image-best-gear.jpg" alt="">
+      <img class="about-img-tab" src="assets/shared/tablet/image-best-gear.jpg" alt="">
+      <img class="about-img-mob" src="assets/shared/mobile/image-best-gear.jpg" alt="">
+      <div class="about-section-text">
+        <h4>Bringing you the <span>best</span> audio gear</h4>    
+        <p>Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
+          earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
+          rooms available for you to browse and experience a wide range of our products. Stop by our store 
+          to meet some of the fantastic people who make Audiophile the best place to buy your portable 
+          audio equipment.</p>
+      </div>
     </section>
   </div>
   <footer>
-    <img src="assets/shared/desktop/logo.svg" alt="">
-    <ul class="navigation-list-footer">
-      <li>Home</li>
-      <li>Headphones</li>
-      <li>Speakers</li>
-      <li>Earphones</li>
-    </ul>
-    <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers 
-      and sound specialists who are devoted to helping you get the most out of personal audio. Come and 
-      visit our demo facility - we're open 7 days a week.</p>
+    <div class="footer-container">
+      <img src="assets/shared/desktop/logo.svg" alt="">
+      <ul class="navigation-list-footer">
+        <li>Home</li>
+        <li>Headphones</li>
+        <li>Speakers</li>
+        <li>Earphones</li>
+      </ul>
+      <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers 
+        and sound specialists who are devoted to helping you get the most out of personal audio. Come and 
+        visit our demo facility - we're open 7 days a week.</p>
 
-    <p>Copyright 2021. All Rights Reserved</p>
-    <div class="socials">
-      <img src="assets/shared/desktop/icon-facebook.svg" alt="">
-      <img src="assets/shared/desktop/icon-twitter.svg" alt="">
-      <img src="assets/shared/desktop/icon-instagram.svg" alt="">
+      <p class="copyright">Copyright 2021. All Rights Reserved - Built by <a target="_blank" href="https://aptwebdesign.co.uk/">APT Webdesign</a></p>
+      <div class="socials">
+        <img src="assets/shared/desktop/icon-facebook.svg" alt="">
+        <img src="assets/shared/desktop/icon-twitter.svg" alt="">
+        <img src="assets/shared/desktop/icon-instagram.svg" alt="">
+      </div>
     </div>
   </footer>
   <script>
