@@ -304,6 +304,9 @@ main{
   background-image: url("assets/home/mobile/image-header.jpg");
   background-position: bottom;
   background-size: cover;
+}
+
+.main-container{
   color: var(--sec-clr-white);
   display: flex;
   flex-direction: column;
@@ -311,6 +314,28 @@ main{
   gap: 2rem;
   padding: 6rem 4rem 9rem 4rem;
   text-align: center;
+  max-width: 380px;
+  margin: 0 auto;
+}
+
+@media(min-width: 550px){
+  main{
+    background-image: url("assets/home/tablet/image-header.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #191919;
+  }
+
+  .main-container{
+    color: var(--sec-clr-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 6rem 4rem 9rem 4rem;
+    text-align: center;
+  }
 }
 
 
@@ -348,6 +373,17 @@ main{
   margin: auto;
 }
 
+@media(min-width:550px){
+  .shop-links{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .shop-links-card{
+    max-width: 220px;
+  }
+}
+
 /* Product Showcase */
 
 .product-showcase{
@@ -371,6 +407,14 @@ main{
   }
 }
 
+.zx9-desk-title{
+  display: none;
+}
+
+.zx9-mob-title{
+  display: block;
+}
+
 .showcase-zx7{
   min-height: 350px;
   background-image: url("assets/home/mobile/image-speaker-zx7.jpg");
@@ -383,13 +427,45 @@ main{
   padding: 2rem;
 }
 
-.showcase-yx1{
+.showcase-yx1-mob{
   padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
   background-color: var(--primary-clr-light);
+}
 
+@media(min-width: 550px) {
+  .product-showcase{
+    max-width: 690px;
+    margin: 5rem auto 0rem auto;
+  }
+
+  .zx9-desk-title{
+    display: block;
+  }
+
+  .zx9-mob-title{
+    display: none;
+  }
+  .showcase-zx9{
+    background-color: var(--primary-clr-100);
+    color: var(--sec-clr-white);
+    padding: 5rem 10rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 auto;
+    img{
+      width: 150px;
+    }
+  }
+
+  .showcase-yx1-img{
+    display: none;
+  }
 }
 
 /* About Section */
