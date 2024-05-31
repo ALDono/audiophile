@@ -273,6 +273,13 @@ p{
   border: none;
 }
 
+.btn-amount{
+  background-color: var(--primary-clr-light);
+  border: none;
+  padding: 1rem;
+  font-weight: var(--fw-bold);
+}
+
 body{
   font-family: var(--ff-main);
 }
@@ -875,5 +882,17 @@ footer{
   }
 }
 
+/**********************/
+/* Product Page Style */
+/**********************/
+
+.amount-int{
+  padding: 0rem 1rem;
+}
+
+.product-card-amount{
+  display: inline;
+  background-color: var(--primary-clr-light);
+}
 
 
