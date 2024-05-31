@@ -539,7 +539,7 @@ main{
   .showcase-zx9{
     background-color: var(--primary-clr-100);
     color: var(--sec-clr-white);
-    padding: 5rem 10rem;
+    padding: 5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
