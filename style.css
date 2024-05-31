@@ -208,6 +208,12 @@ p{
     line-height: var(--lh-body);
 }
 
+li{
+  font-size: var(--fs-body);
+  font-weight: var(--fw-med);
+  line-height: var(--lh-body);
+}
+
 .btn-main{
     font-size: var(--fs-subtitle);
     font-weight: var(--fw-bold);
@@ -886,6 +892,8 @@ footer{
 /* Product Page Style */
 /**********************/
 
+/* Main */
+
 .amount-int{
   padding: 0rem 1rem;
 }
@@ -893,6 +901,69 @@ footer{
 .product-card-amount{
   display: inline;
   background-color: var(--primary-clr-light);
+}
+
+.product-features{
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+
+/* In the box */
+.product-itb{
+  margin-top: 4rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10rem;
+  ul{
+    margin-top: 2rem;
+    list-style: none;
+    padding: 0px;
+    li{
+      margin-top: 0.25rem;
+      span{
+        color:var(--primary-clr-100);
+        font-weight: var(--fw-bold);
+        padding-right: 2rem;
+      } 
+    }
+    
+  }
+
+}
+
+/* Product Gallery */
+
+.product-gallery{
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.product-gallery-img{
+  border-radius: 16px;
+  margin-top: 1.5rem;
+}
+
+/* Product, you may also like */
+
+.product-ymal{
+  h5{
+    text-align: center;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.ymal-card{
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 
