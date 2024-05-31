@@ -781,3 +781,32 @@ footer{
     }
   }
 }
+
+/*******************/
+/* headphones page */
+/*******************/
+
+.headphones-main{
+  background-color: var(--sec-clr-white);
+  background-image: none;
+}
+
+.product-card-text{
+  h1{
+    display:none;
+  }
+  .spaced{
+    color: var(--primary-clr-100);
+  }
+}
+
+@media(min-width: 550px){
+  .product-card-text{
+    h1{
+      display:block;
+    }
+    h3{
+      display:none;
+    }
+  }
+}

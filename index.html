@@ -117,7 +117,7 @@
       <img src="assets/shared/desktop/logo.svg" alt="">
       <ul class="navigation-list-footer">
         <li>Home</li>
-        <li>Headphones</li>
+        <li><a href="headphones.html">Headphones</a></li>
         <li>Speakers</li>
         <li>Earphones</li>
       </ul>
@@ -133,19 +133,6 @@
       </div>
     </div>
   </footer>
-  <script>
-    const btnHamburger = document.getElementById("btnHamburger");
-    const navigationLinks = document.getElementById("navigationLinks");
-    let navActive = false;
-    btnHamburger.addEventListener("click", function(){
-      if(navActive === false){
-        navActive = true;
-        navigationLinks.style.display = "block";
-      }else{
-        navActive = false;
-        navigationLinks.style.display = "none";
-      }
-    })
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
