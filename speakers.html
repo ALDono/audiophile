@@ -6,58 +6,122 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
+  <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Audiophile e-commerce website</title>
 </head>
 
 <body>
-  Home
-  Headphones
-  Speakers
-  Earphones
+  <header>
+    <nav>
+      <button id="btnHamburger" class="btn-hamburger"><img src="assets/shared/tablet/icon-hamburger.svg" alt=""></button>
+      <ul id="navigationLinks" class="navigation-list">
+        <li>Home</li>
+        <li>Headphones</li>
+        <li>Speakers</li>
+        <li>Earphones</li>
+      </ul>
+    </nav>
+    <a href="index.html"><img src="assets/shared/desktop/logo.svg" alt=""></a>
+    <button class="btn-trolley"><img src="assets/shared/desktop/icon-cart.svg" alt=""></button>
+  </header>
+  <div class="container"> 
+    <main class="headphones-main">
+      <div class="product-card">
+        <div class="product-card-img">
+          <img src="assets/shared/desktop/image-zx9-speaker.jpg" alt="">
+        </div>
+        <div class="product-card-img-tab">
+          <img src="assets/shared/mobile/image-zx9-speaker.jpg" alt="">
+        </div>
+        <div class="product-card-text">
+          <p class="spaced">New product</p>
+                   
+          <h3>ZX9 Speaker</h3>
+          <h1>ZX9 Speaker</h1>
+          <p>Upgrade your sound system with the all new ZX9 active speaker. 
+            It's a bookshelf speaker system that offers truly wireless connectivity -- creating new possibilities for more pleasing and practical audio setups.</p>
+                  
+          <button class="btn-main">See product</button>
+        </div>
+      </div>
+      <div class="product-card product-card-reverse">
+        <div class="product-card-img"> 
+          <img src="assets/shared/desktop/image-zx7-speaker.jpg" alt="">
+        </div>
+        <div class="product-card-img-tab"> 
+          <img src="assets/shared/mobile/image-zx7-speaker.jpg" alt="">
+        </div>
+        <div class="product-card-text">
+          <h3>ZX7 Speaker</h3>
+          <h1>ZX7 Speaker</h1>
+          <p>Stream high quality sound wirelessly with minimal loss. 
+            The ZX7 bookshelf speaker uses high-end audiophile components that represents the top of the line powered speakers for home or studio use.</p>
+          
+          <button class="btn-main">See product</button>
+        </div>
+      </div>
+    </main>
+    <section class="shop-links">
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="">
+          <h2 class="subtitle">Headphones</h2>
+          <button class="btn-minimal"><a href="headphones.html">Shop</a></button>
+        </div>  
+      </div>
 
-  New product
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="">
+          <h2 class="subtitle">Speakers</h2>
+          <button class="btn-minimal"><a href="speakers.html">Shop</a></button>
+        </div>
+      </div>
 
-  ZX9 speaker
-  Upgrade your sound system with the all new ZX9 active speaker. It’s a bookshelf speaker 
-  system that offers truly wireless connectivity -- creating new possibilities for more 
-  pleasing and practical audio setups.
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="">
+          <h2 class="subtitle">Earphones</h2>
+          <button class="btn-minimal"><a href="earphones.html">Shop</a></button>
+        </div>
+      </div>
 
-  See product
+    </section>
+    <section class="about-section">
+      <img class="about-img-desk" src="assets/shared/desktop/image-best-gear.jpg" alt="">
+      <img class="about-img-tab" src="assets/shared/tablet/image-best-gear.jpg" alt="">
+      <img class="about-img-mob" src="assets/shared/mobile/image-best-gear.jpg" alt="">
+      <div class="about-section-text">
+        <h4>Bringing you the <span>best</span> audio gear</h4>    
+        <p>Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
+          earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
+          rooms available for you to browse and experience a wide range of our products. Stop by our store 
+          to meet some of the fantastic people who make Audiophile the best place to buy your portable 
+          audio equipment.</p>
+      </div>
+    </section>
+  </div>
+  <footer>
+    <div class="footer-container">
+      <img src="assets/shared/desktop/logo.svg" alt="">
+      <ul class="navigation-list-footer">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="headphones.html">Headphones</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="earphones.html">Earphones</a></li>
+      </ul>
+      <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers 
+        and sound specialists who are devoted to helping you get the most out of personal audio. Come and 
+        visit our demo facility - we're open 7 days a week.</p>
 
-  ZX7 speaker
-  Stream high quality sound wirelessly with minimal loss. The ZX7 bookshelf speaker uses 
-  high-end audiophile components that represents the top of the line powered speakers for 
-  home or studio use.
-
-  See product
-
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
-
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
-
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
-
-  Copyright 2021. All Rights Reserved
+      <p class="copyright">Copyright 2021. All Rights Reserved - Built by <a target="_blank" href="https://aptwebdesign.co.uk/">APT Webdesign</a></p>
+      <div class="socials">
+        <a href=""><img src="assets/shared/desktop/icon-facebook.svg" alt=""></a>
+        <a href=""><img src="assets/shared/desktop/icon-twitter.svg" alt=""></a>
+        <a href=""><img src="assets/shared/desktop/icon-instagram.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
 </body>
-
 </html>
