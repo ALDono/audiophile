@@ -428,6 +428,15 @@ main{
   margin-top: 2rem;
 }
 
+.shop-links-nav{
+  display: none;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
 .shop-links-card{
   background-color: var(--primary-clr-light);
   width: 100%;
@@ -460,6 +469,11 @@ main{
 
 @media(min-width:550px){
   .shop-links{
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .shop-links-nav{
     flex-direction: row;
     justify-content: center;
   }
