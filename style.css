@@ -1024,6 +1024,7 @@ footer{
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  max-width: 550px;
 }
 
 .product-gallery-img{
@@ -1031,13 +1032,13 @@ footer{
   margin-top: 1.5rem;
 }
 
-/* .pgi-left{
-  max-width: 230px;
+.pgi-left{
+  max-width: 220px;
 }
 
 .pgi-right{
-  max-width: 300px;
-} */
+  max-width: 280px;
+}
 
 /* Product, you may also like */
 
