@@ -282,7 +282,7 @@ li{
 .btn-amount{
   background-color: var(--primary-clr-light);
   border: none;
-  padding: 1rem;
+  padding: 0.85rem;
   font-weight: var(--fw-bold);
 }
 
@@ -896,10 +896,9 @@ footer{
 .product-card-text{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
+  text-align: left;
   gap: 2rem;
-
   h1{
     display:none;
   }
@@ -962,8 +961,12 @@ footer{
   padding: 0rem 1rem;
 }
 
+.product-card-btns{
+  display: flex;
+  gap: 1rem;
+}
+
 .product-card-amount{
-  display: inline;
   background-color: var(--primary-clr-light);
 }
 
@@ -979,7 +982,7 @@ footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10rem;
+  gap: 1rem;
   ul{
     margin-top: 2rem;
     list-style: none;
@@ -998,6 +1001,10 @@ footer{
 }
 
 /* Product Gallery */
+
+.go-back{
+  color: var(--primary-clr-dark);
+}
 
 .product-gallery{
   margin-top: 5rem;
