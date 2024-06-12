@@ -1025,19 +1025,12 @@ footer{
   align-items: center;
   justify-content: center;
   max-width: 550px;
+  margin: 0 auto;
 }
 
 .product-gallery-img{
   border-radius: 16px;
   margin-top: 1.5rem;
-}
-
-.pgi-left{
-  max-width: 220px;
-}
-
-.pgi-right{
-  max-width: 280px;
 }
 
 /* Product, you may also like */
