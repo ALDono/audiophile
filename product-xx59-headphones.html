@@ -6,80 +6,207 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
-  <title>Frontend Mentor | Audiophile e-commerce website</title>
+  <link rel="stylesheet" href="style.css">
+  <title>Audiophile e-commerce website</title>
 </head>
-
 <body>
-  Home
-  Headphones
-  Speakers
-  Earphones
-
-  Go back
-
-  XX59 Headphones
-  Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. 
-  The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.
-
-  $899
-  1
-  Add to cart
-
-  Features
-  These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact
-  folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the
-  latest wireless technology engineered for audio synchronization with videos.
-
-  More than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free
-  calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access
-  touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an
-  impressive 30-hour battery life that can be rapidly recharged via USB-C.
-
-  In the box
+  <header>
+    <nav>
+      <button id="btnHamburger" class="btn-hamburger"><img src="assets/shared/tablet/icon-hamburger.svg" alt=""></button>
+      <a href="index.html"><img src="assets/shared/desktop/logo.svg" alt=""></a>
+      <ul id="navigationLinks" class="navigation-list">
+        <a href="index.html"><li>Home</li></a>
+        <a href="headphones.html"><li>Headphones</li></a>
+        <a href="speakers.html"><li>Speakers</li></a>
+        <a href="earphones.html"><li>Earphones</li></a>
+      </ul>
+      <button class="btn-trolley"><img src="assets/shared/desktop/icon-cart.svg" alt=""></button>
+    </nav>
+    <section class="shop-links-nav" id="shopLinksNav">
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="">
+          <h2 class="subtitle">Headphones</h2>
+          <button class="btn-minimal"><a href="headphones.html">Shop</a></button>
+        </div>  
+      </div>
   
-  1x Headphone unit
-  2x Replacement earcups
-  1x User manual
-  1x 3.5mm 5m audio cable
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="">
+          <h2 class="subtitle">Speakers</h2>
+          <button class="btn-minimal"><a href="speakers.html">Shop</a></button>
+        </div>
+      </div>
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="">
+          <h2 class="subtitle">Earphones</h2>
+          <button class="btn-minimal"><a href="earphones.html">Shop</a></button>
+        </div>
+      </div>
   
-  You may also like
-  
-  XX99 Mark II
-  See product
-  
-  XX99 Mark I
-  See product
-  
-  ZX9 speaker
-  See product
+    </section>
+    <div class="darken" id="darken"></div>
+  </header>
+  <div class="go-back">
+    <a href="headphones.html">Go Back</a>
+  </div>
+  <div class="container">
+    <main class="headphones-main">
+      <div class="product-card">
+        <div class="product-card-img-tab">
+          <img src="assets/product-xx59-headphones/desktop/image-product.jpg" alt="">
+        </div>
+        <div class="product-card-img">
+          <img src="assets/product-xx59-headphones/tablet/image-product.jpg" alt="">
+        </div>
+        <div class="product-card-text">
+          <h1>XX59 Headphones</h1>
+          <h3>XX59 Headphones</h3>
+          <p>Enjoy your audio almost anywhere and customize it to your specific tastes with the XX59 headphones. 
+            The stylish yet durable versatile wireless headset is a brilliant companion at home or on the move.</p>
 
-  Headphones
-  Shop
-  
-  Speakers
-  Shop
-  
-  Earphones
-  Shop
+          <h5>£899</h5>
+          <div class="product-card-btns">
+            <div class="product-card-amount"> 
+              <button class="btn-amount" id="btnDec">-</button>
+              <span class="amount-int" id="amountInt">1</span>
+              <button class="btn-amount" id="btnInc">+</button>
+            </div>
+            <button class="btn-main">Add to cart</button>
+          </div>  
+        </div>
+      </div>
+    </main>
+    <section class="product-info">
+      <div class="product-features">
+        <h3>Features</h3>
+        <br><br>
+        <p>These headphones have been created from durable, high-quality materials tough enough to take anywhere. Its compact
+          folding design fuses comfort and minimalist style making it perfect for travel. Flawless transmission is assured by the
+          latest wireless technology engineered for audio synchronization with videos.
+          <br><br>
+          More than a simple pair of headphones, this headset features a pair of built-in microphones for clear, hands-free
+          calling when paired with a compatible smartphone. Controlling music and calls is also intuitive thanks to easy-access
+          touch buttons on the earcups. Regardless of how you use the XX59 headphones, you can do so all day thanks to an
+          impressive 30-hour battery life that can be rapidly recharged via USB-C.</p>
+        </div>
+      <div class="product-itb">
+        <h3>In the box</h3>
+        <ul>
+          <li><span>1x</span> Headphone unit</li>
+          <li><span>2x</span> Replacement earcups</li>
+          <li><span>1x</span> User manual</li>
+          <li><span>1x</span> 3.5mm 5m audio cable</li>
+        </ul>      
+      </div>
+    </section>
+    <section class="product-gallery">
+      <img class="product-gallery-img pgi-left" src="assets/product-xx59-headphones/mobile/image-gallery-1.jpg" alt="">
+      <img class="product-gallery-img pgi-left" src="assets/product-xx59-headphones/mobile/image-gallery-2.jpg" alt="">
+      <img class="product-gallery-img pgi-right" src="assets/product-xx59-headphones/mobile/image-gallery-3.jpg" alt="">
+    </section>
+    <section class="product-gallery-tab">
+      <div class="gallery-left">
+        <img class="product-gallery-img pgi-left" src="assets/product-xx59-headphones/mobile/image-gallery-1.jpg" alt="">
+        <img class="product-gallery-img pgi-left" src="assets/product-xx59-headphones/mobile/image-gallery-2.jpg" alt="">
+      </div>
+      <div class="gallery-right">
+        <img class="product-gallery-img pgi-right" src="assets/product-xx59-headphones/mobile/image-gallery-3.jpg" alt="">
+      </div>
+    </section>
+    <h5 class="ymal-title">You may also like</h5>
+    <section class="product-ymal">
+      
+      <div class="ymal-card">
+        <img class="ymal-img-mob" src="assets/shared/mobile/image-xx99-mark-two-headphones.jpg" alt="">
+        <img class="ymal-img-desk" src="assets/shared/desktop/image-xx99-mark-two-headphones.jpg" alt="">
+        <h5>XX99 Mark II</h5>
+        <a href="product-xx99-mark-two-headphones.html"><button class="btn-main">See product</button></a>
+      </div>
+      
+      <div class="ymal-card">
+        <img class="ymal-img-mob" src="assets/shared/mobile/image-xx59-headphones.jpg" alt="">
+        <img class="ymal-img-desk" src="assets/shared/desktop/image-xx59-headphones.jpg" alt="">
+        <h5>XX59</h5>
+        <a href="product-xx59-headphones.html"><button class="btn-main">See product</button></a>
+      </div>
+      
+      <div class="ymal-card">
+        <img class="ymal-img-mob" src="assets/shared/mobile/image-zx9-speaker.jpg" alt="">
+        <img class="ymal-img-desk" src="assets/shared/desktop/image-zx9-speaker.jpg" alt="">
+        <h5>ZX9 speaker</h5>
+        <a href="product-zx9-speaker.html"><button class="btn-main">See product</button></a>
+      </div>
+    </section>
+    
+    
 
-  Bringing you the best audio gear
-  Located at the heart of New York City, Audiophile is the premier store for high end headphones,
-  earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration
-  rooms available for you to browse and experience a wide range of our products. Stop by our store
-  to meet some of the fantastic people who make Audiophile the best place to buy your portable
-  audio equipment.
+    <section class="shop-links">
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-headphones.png" alt="">
+          <h2 class="subtitle">Headphones</h2>
+          <button class="btn-minimal"><a href="headphones.html">Shop</a></button>
+        </div>  
+      </div>
 
-  Home
-  Headphones
-  Speakers
-  Earphones
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-speakers.png" alt="">
+          <h2 class="subtitle">Speakers</h2>
+          <button class="btn-minimal"><a href="speakers.html">Shop</a></button>
+        </div>
+      </div>
 
-  Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers
-  and sound specialists who are devoted to helping you get the most out of personal audio. Come and
-  visit our demo facility - we’re open 7 days a week.
+      <div class="shop-links-card">
+        <div class="card-inner">
+          <img src="assets/shared/desktop/image-category-thumbnail-earphones.png" alt="">
+          <h2 class="subtitle">Earphones</h2>
+          <button class="btn-minimal"><a href="earphones.html">Shop</a></button>
+        </div>
+      </div>
 
-  Copyright 2021. All Rights Reserved
+    </section>
+    <section class="about-section">
+      <img class="about-img-desk" src="assets/shared/desktop/image-best-gear.jpg" alt="">
+      <img class="about-img-tab" src="assets/shared/tablet/image-best-gear.jpg" alt="">
+      <img class="about-img-mob" src="assets/shared/mobile/image-best-gear.jpg" alt="">
+      <div class="about-section-text">
+        <h4>Bringing you the <span>best</span> audio gear</h4>    
+        <p>Located at the heart of New York City, Audiophile is the premier store for high end headphones, 
+          earphones, speakers, and audio accessories. We have a large showroom and luxury demonstration 
+          rooms available for you to browse and experience a wide range of our products. Stop by our store 
+          to meet some of the fantastic people who make Audiophile the best place to buy your portable 
+          audio equipment.</p>
+      </div>
+    </section>
+
+  </div>
+  <footer>
+    <div class="footer-container">
+      <img src="assets/shared/desktop/logo.svg" alt="">
+      <ul class="navigation-list-footer">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="headphones.html">Headphones</a></li>
+        <li><a href="speakers.html">Speakers</a></li>
+        <li><a href="earphones.html">Earphones</a></li>
+      </ul>
+      <p>Audiophile is an all in one stop to fulfill your audio needs. We're a small team of music lovers 
+        and sound specialists who are devoted to helping you get the most out of personal audio. Come and 
+        visit our demo facility - we're open 7 days a week.</p>
+
+      <p class="copyright">Copyright 2021. All Rights Reserved - Built by <a target="_blank" href="https://aptwebdesign.co.uk/">APT Webdesign</a></p>
+      <div class="socials">
+        <a href=""><img src="assets/shared/desktop/icon-facebook.svg" alt=""></a>
+        <a href=""><img src="assets/shared/desktop/icon-twitter.svg" alt=""></a>
+        <a href=""><img src="assets/shared/desktop/icon-instagram.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+  <script src="adjustAmount.js"></script>
 </body>
 
 </html>

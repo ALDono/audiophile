@@ -913,6 +913,7 @@ footer{
 
 .product-card-img-tab{
   display: block;
+  max-width: 470px;
 }
 
 @media(min-width: 550px) and (max-width: 1110px){
@@ -950,6 +951,7 @@ footer{
     width: min-content;
     align-items: flex-start;
     text-align: left;
+    min-width: 320px;
     h1{
       display:block;
     }
